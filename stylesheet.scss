@@ -64,11 +64,9 @@ header {
 }
 
 /* Tambahkan class .ruby dengan style yang sama seperti .html dan .javascript */
-    <div class="ruby">
-      <h4>Ruby</h4>
-      <img src="https://prog-8.com/images/sass/ruby.svg">
-      <a href="#">Lihat Log Studi</a>
-    </div> 
+    .ruby {
+  @include card($ruby);
+} 
 
 
 footer {
